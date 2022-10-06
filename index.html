@@ -4,13 +4,62 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Odin Project - Recipe</title>
 </head>
 <body>
-    <h1>Odin Recipes</h1>
-     
-        <a href="recipes/lasagna.html">Fried Lasagna Recipe</a><br>
-        <a href="recipes/lettuce_wraps.html">Cashew Chicken Lattuce Wraps</a><br>
-        <a href="recipes/buffalo_chicken_dip.html">Buffalo Chicken Dip</a>
+    <style>
+        p {
+            background-color:green;
+            color:white;
+            font-size: 18px;
+        }
+    </style>
+    <h1 style="margin:25px;">Odin Recipes</h1>
+    <ul style="list-style-type:none;">
+        <li><a href="recipes/lasagna.html">Fried Lasagna Recipe</a></li>
+        <li><a href="recipes/lettuce_wraps.html">Cashew Chicken Lattuce Wraps</a></li>
+        <li><a href="recipes/buffalo_chicken_dip.html">Buffalo Chicken Dip</a></li>
+     </ul>
+     <!-- //This is 01-css-methods including internal css, external css, in-line css// -->
+     <div >
+     <p>Have suggestions for more delicious recipes? Upload them by clicking the button below</p>
+      <button style="background-color: orange;font-size: 18px;">Upload Recipe</button>
+    </div>
+       <!-- // This is 02-class-id-selectors// -->
+     <p class="recipe">Mom's Spaghetti</p>
+     <div id="readers_choice">Readers Choice</div>
+     <p class="recipe recipe-plus">Aunty Betty's Christmas Cookies</p>
+     <div id="my_fav">My personal favorite</div>
+     <p class="recipe">No Bake Cokies With a Twist</p>
+<!-- //This is 03-grouping selectors// -->
+<p>You can download or upload any recipe by selecting the button below</p>
+<button class="download btn">Download</button><button class="upload btn">Upload</button><br>
+<!-- //This is 04-chaining selectors// -->
+<img class="avatar proportioned" src="images/Fried-Lasagna_img.jpeg" alt="picture of fried lasagna" ><br>
+<img class="avatar distorted" src="images/cashew-chicken-lettuce-wraps.jpeg" alt="picture of lettuce wrap"> 
+<!-- //This is 05- descendant-combinators// -->
+
+ <div class="container">Our site contributors are:
+    <p class="text">Ann B</p>
+  </div>
+  <p>Scott S</p>
+  <p>Chris S</p>
+  <div class="container">
+    <p class="text">Bill D</p>
+    <p class="text">Timothy Z</p>
+  </div>
+
+  <!-- //This is 06-cascade-fix// -->
+  <p class="para">I'm just a paragraph with extra bold text!</p>
+  <p class="para small-para">I'm a smaller paragraph, also with extra bold text!</p>
+
+  <button id="confirm-button" class="button confirm">Confirm</button>
+  <button id="cancel-button" class="button cancel">Cancel</button>
+
+  <div class="text">I'm a div with thin text!</div>
+  <div class="text">I'm a div with thin text and a child div!
+    <div class="text child">I'm a smaller child div with extra bold text.</div>
+  </div>
 </body>
 </html>

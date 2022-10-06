@@ -1,0 +1,79 @@
+div {
+  background-color: red;
+  color:white;
+  font-size:32px;
+  text-align: center;
+  font-weight: bold;
+
+}
+.recipe {
+    background-color: rgb(255, 167, 167);
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+  }
+  
+ .recipe-plus {
+    font-size: 24px;
+  }
+  
+  #readers_choice{
+    color: #0000ff;
+    font-size: 36px;
+  }
+  
+  #my_fav {
+    background-color: hsl(120, 100%, 75%);
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .download{
+    background-color: black;
+    color: aliceblue;
+    font-family: ;
+  }
+  .upload{
+    background-color: yellow;
+  }
+  .btn{
+    font-family: 'Times New Roman', Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    margin: 3em;
+  }
+  .avatar{
+    margin: 25px;
+  }
+ .distorted{
+  width: 200px;
+  height: 400px;
+  }
+  .proportioned{
+    width: 300px;
+    height: auto;
+  }
+  .text::first-line{
+    background: yellow;
+    color: red;
+    font-size: 20px;
+  }
+  .para{
+    font-weight: bolder;
+    font-size: 24px;
+  }
+  .small-para{
+    font-size:12px;
+  }
+  .text :only-child{
+    font-stretch: narrower;
+    font-weight: bolder;
+  }
+  #confirm-button{
+    background-color: green;
+    color: whitesmoke;
+    height: 5rem;
+    width: 10rem;
+  }
+  #cancel-button{
+    background-color: aliceblue;
+    color: black;
+    height: 5rem;
+    width: 10rem;
+  }

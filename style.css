@@ -1,3 +1,7 @@
+body{
+  margin:25px;
+  padding:25px;
+}
 div {
   background-color: red;
   color:white;
@@ -9,10 +13,13 @@ div {
 .recipe {
     background-color: rgb(255, 167, 167);
     font-family: Verdana, "DejaVu Sans", sans-serif;
+    margin:32px;
+    padding:12px;
   }
   
  .recipe-plus {
     font-size: 24px;
+    margin-top:48px;
   }
   
   #readers_choice{
@@ -37,6 +44,14 @@ div {
     font-family: 'Times New Roman', Arial, Helvetica, sans-serif;
     font-size: 28px;
     margin: 3em;
+    background:white;
+    border:1px sold greenyellow;
+    color:red;
+  }
+  #btn-container{
+  margin: 16px 8px;
+  background: #fff;
+  margin: 16px auto; 
   }
   .avatar{
     margin: 25px;
@@ -76,4 +91,12 @@ div {
     color: black;
     height: 5rem;
     width: 10rem;
+  }
+  h1{
+    text-align:right;
+  }
+  .card{
+    width: 50%;
+    background: #fff;
+    margin: 16px auto;
   }

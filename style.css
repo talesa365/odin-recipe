@@ -10,6 +10,14 @@ div {
   font-weight: bold;
 
 }
+div .text{
+  background-color: red;
+  color:white;
+  font-size:32px;
+  text-align: center;
+  font-weight: bold;
+
+}
 .recipe {
     background-color: rgb(255, 167, 167);
     font-family: Verdana, "DejaVu Sans", sans-serif;
@@ -100,10 +108,4 @@ div {
     background: #fff;
     margin: 16px auto;
   }
-  /* Web challenge #6 Odin flex css project 01*/
-  .box{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  }
-    /* Web challenge #6 Odin flex css project 02*/
+ 
